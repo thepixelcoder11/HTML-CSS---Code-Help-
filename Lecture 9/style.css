@@ -1,5 +1,23 @@
 p{
-    font-style: italic;
-    font-size: 20px;
-    
+  font-size: 40px;
+}
+p.firstpara{
+    background-color: aqua;
+
+}
+p.secondpara{
+    background-color: green;
+    color: yellow;
+}
+p.thirdpara{
+    background-color: rgb(77, 75, 240);
+}
+p.fourthpara{
+    background-color: rgba(66,127,76,8);
+}
+p.fifthpara{
+    background-color: #ab72b0;
+}
+p.sixthpara{
+    background-color: hsl(hue, saturation, lightness);
 }
