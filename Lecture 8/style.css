@@ -1,0 +1,19 @@
+.paraclass{
+    background-color: yellow;
+}
+p{
+    background-color: aquamarine;
+}
+
+p,article{
+    width: 500px;
+    background-color: blueviolet;
+}
+p.paraclass{
+    text-align: center;
+    background-color: aquamarine;
+}
+p.container{
+    text-align: center;
+    background-color: yellowgreen;
+}
