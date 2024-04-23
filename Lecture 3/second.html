@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+</head>
+<body>
+    <form>
+        <h1>Job Application</h1>
+
+        <label for="name">Name: </label>
+        <input type="name" id="name"> <br><br>
+
+        <label for="email">Email: </label>
+        <input type="email-id" id="email"> <br><br>
+
+        <label for="phone">Phone: </label>
+        <input type="tel" id="phone"> <br><br>
+
+        <label for="fileuplaod">Resume: </label>
+        <input type ="file" id="fileuplaod"> <br><br>
+
+        <label for="years">Experience (years): </label>
+        <input type="number" id="years" min="0" max="50"><br><br>
+
+        <fieldset>
+            <legend>Skills: </legend>
+            <label for="skill">HTML</label>
+            <input type="checkbox" name="skills" id="skill"><br><br>
+
+            <label for="skill">CSS</label> 
+            <input type="checkbox" name="skills" id="skill"> <br><br>
+
+            <label for="skill">JavaScript</label>
+            <input type="checkbox" name="skills" id="skill">
+
+        </fieldset>
+<br><br>
+        <label for="study">Highest Education: </label>
+        <select name="study" id="studies">
+            <option>Higher School</option>
+            <option>Seconday School</option>
+            <option>Primary School</option>
+        </select><br><br>
+
+        <label>Availability</label><br>
+        <input type="radio" name="radio-btn" id="radio"> 
+        <option>Full-Time</option>
+
+        <input type="radio" name="radio-btn" id="radio"> 
+        <option>Part-Time</option><br><br>
+
+        <label for="comments">Additional Comments: </label><br><br>
+        <textarea name="comment" id="comments" cols="30" rows="10"></textarea>
+
+
+    </form>
+</body>
+</html>
